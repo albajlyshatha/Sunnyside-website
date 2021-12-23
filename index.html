@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="navbar container">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+        <div class="logo">sunnyside</div>
+        <nav>
+          <ul class="flex">
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </div>
+
+      <h1 class="title">We are creatives</h1>
+      <div class="arrow"></div>
+    </header>
+    <!-- header end -->
+    <section class="articles">
+      <div class="first-box grid">
+        <div class="article-pic">
+          <img src="images/desktop/image-transform.jpg" alt="" />
+        </div>
+        <div class="article-text">
+          <h2 class="article-title">Transform your brand</h2>
+          <div class="article-paragraph">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </div>
+          <button class="article-button">Learn more</button>
+        </div>
+      </div>
+      <div class="second-box grid">
+        <div class="article-pic">
+          <img src="images/desktop/image-stand-out.jpg" alt="" />
+        </div>
+        <div class="article-text">
+          <h2 class="article-title">Stand out to the right audience</h2>
+          <div class="article-paragraph">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </div>
+          <button class="article-button">Learn more</button>
+        </div>
+      </div>
+
+      <div class="third-box grid">
+        <div class="first-article">
+          <img src="images/desktop/image-graphic-design.jpg" alt="" />
+          <div class="article-text">
+            <h2 class="article-title">Graphic design</h2>
+            <div class="article-paragraph">
+              Great design makes you memorable. We deliver artwork.
+            </div>
+          </div>
+        </div>
+        <div class="second-article">
+          <img src="images/desktop/image-photography.jpg" alt="" />
+          <div class="article-text">
+            <h2 class="article-title">Photography</h2>
+            <div class="article-paragraph">
+              Increase your credibility by getting the most stunning website.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home end -->
+    <!-- client-testimonials stert  -->
+
+    <section class="client-testimonials">
+      <h2>Client testimonials</h2>
+      <div class="grid grid-3">
+        <div class="client-testimonials-div flex">
+          <img
+            src="images/image-emily.jpg"
+            alt=""
+            class="client-testimonials-picture"
+          />
+          <p class="client-testimonials-text">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <p class="client-testimonials-name">Emily R.</p>
+          <p class="client-testimonials-position">Marketing Director</p>
+        </div>
+        <div class="client-testimonials-div flex">
+          <img
+            src="images/image-thomas.jpg"
+            alt=""
+            class="client-testimonials-picture"
+          />
+          <p class="client-testimonials-text">
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+
+          <p class="client-testimonials-name">Thomas S.</p>
+          <p class="client-testimonials-position">Chief Operating Officer</p>
+        </div>
+
+        <div class="client-testimonials-div flex">
+          <img
+            src="images/image-jennie.jpg"
+            alt=""
+            class="client-testimonials-picture"
+          />
+          <p class="client-testimonials-text">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+
+          <p class="client-testimonials-name">Jennie F.</p>
+          <p class="client-testimonials-position">Business Owner</p>
+        </div>
+      </div>
+    </section>
+    <!-- client-testimonials end -->
+    <!-- images start-->
+    <section class="images grid grid-4">
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" />
+      <img src="images/desktop/image-gallery-orange.jpg" alt="" />
+      <img src="images/desktop/image-gallery-cone.jpg" alt="" />
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+    </section>
+    <!-- images end -->
+    <footer>
+      <div class="flex">
+        <div class="footer-logo">sunnyside</div>
+        <nav>
+          <ul class="flex">
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+          </ul>
+        </nav>
+
+        <div class="contact">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-pinterest"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Shatha</a>.
+    </div> -->
+  </body>
+</html>
